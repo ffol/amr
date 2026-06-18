@@ -7,7 +7,7 @@ Resource providers to be registered at subcription level
 az provider register --namespace "Microsoft.cache"
 ```
 
-make sure the resource provider is registered
+Make sure the resource provider is registered
 ```powershell
 az provider show -n Microsoft.Cache --query "registrationState"
 ```
