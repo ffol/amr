@@ -9,6 +9,11 @@ az provider register --namespace "Microsoft.cache"
 az provider show -n Microsoft.Cache --query "registrationState"
 ```
 
+make sure the resource provider is registered
+```powershell
+az provider show -n Microsoft.Cache --query "registrationState"
+```
+
 Deployment:
 
 ```powershell
