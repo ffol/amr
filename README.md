@@ -4,7 +4,7 @@ Dns zone to be available on connectivity sub: **privatelink.redis.azure.net**
 Resource providers to be registered at subcription level
 
 ```powershell
-az provider register --namespace "Microsoft.cache"
+az provider register --namespace "Microsoft.Cache"
 ```
 
 Make sure the resource provider is registered
